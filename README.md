@@ -67,6 +67,11 @@ h\left( X \right) = \log(\gamma)\,+\,\log(4\,\pi)
 ## Usage
 
 ```javascript
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-entropy@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-cauchy-entropy/tags). For example,
+
+```javascript
 import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-entropy@v0.2.1-esm/index.mjs';
 ```
 
@@ -130,7 +135,7 @@ v = entropy( 1.0, 0.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-entropy@v0.2.1-esm/index.mjs';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-entropy@esm/index.mjs';
 
 var gamma;
 var x0;
