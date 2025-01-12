@@ -240,10 +240,10 @@ int main( void ) {
     double x0;
     double y;
     int i;
-    
+
     for ( i = 0; i < 25; i++ ) {
         x0 = random_uniform( 0.0, 100.0 );
-        gamma = random_uniform( 0.0, 10.0 ) + STDLIB_CONSTANT_FLOAT64_EPS;
+        gamma = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 10.0 );
         y = stdlib_base_dists_cauchy_entropy( x0, gamma );
         printf( "x0: %lf, gamma: %lf, F(x0;gamma): %lf\n", x0, gamma, y );
     }
@@ -300,7 +300,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
