@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-19)
+## Unreleased (2025-06-22)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`555255c`](https://github.com/stdlib-js/stdlib/commit/555255c2ee6c26f065f0bb20eec9314c8d1d2263) - **docs:** update `stats/base/dists/cauchy` examples to use Greek symbols _(by Philipp Burckhardt)_
 -   [`6af184d`](https://github.com/stdlib-js/stdlib/commit/6af184d8a8ed89c7be0fe08dd5d87125b60c5e01) - **bench:** update random value generation [(#6953)](https://github.com/stdlib-js/stdlib/pull/6953) _(by Harsh)_
 -   [`28f64ec`](https://github.com/stdlib-js/stdlib/commit/28f64ec05e56db3e8836cfcdfd45e27a53eda4bf) - **docs:** replace manual `for` loop in examples [(#6918)](https://github.com/stdlib-js/stdlib/pull/6918) _(by Harsh)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
