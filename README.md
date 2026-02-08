@@ -67,7 +67,7 @@ h\left( X \right) = \log(\gamma)\,+\,\log(4\,\pi)
 ## Usage
 
 ```javascript
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-entropy@deno/mod.js';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-entropy@v0.3.1-deno/mod.js';
 ```
 
 #### entropy( x0, gamma )
@@ -126,7 +126,7 @@ v = entropy( 1.0, 0.0 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-entropy@deno/mod.js';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-entropy@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
